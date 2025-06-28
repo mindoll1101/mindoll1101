@@ -1,7 +1,7 @@
 ## Hi there 👋
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=300&text=Welcome%20to%20-nl-mindoll1101's%GitHub&fontAlign=50&fontAlignY=40&color=gradient)
 <img src="https://img.shields.io/badge/python-20232a.svg?style=for-the-badge&logo=python&logoColor=61DAFB" />
-
+<img src="https://img.shields.io/badge/c++-20232a.svg?style=for-the-badge&logo=c++&logoColor=61DAFB" />
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mindoll1101)
 <!--
