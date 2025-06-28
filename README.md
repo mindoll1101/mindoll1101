@@ -1,5 +1,6 @@
 ## Hi there 👋
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=300&text=Welcome%20to%20-nl-mindoll1101's%GitHub&fontAlign=50&fontAlignY=40&color=gradient)
+<img src="https://img.shields.io/badge/react-20232a.svg?style=for-the-badge&logo=python&logoColor=61DAFB" />
 <!--
 **mindoll1101/mindoll1101** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
