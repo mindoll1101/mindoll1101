@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/python-20232a.svg?style=for-the-badge&logo=python&logoColor=61DAFB" />
 <img src="https://img.shields.io/badge/c++-20232a.svg?style=for-the-badge&logo=cplusplus&logoColor=61DAFB" />
 <img src="https://img.shields.io/badge/dart-20232a.svg?style=for-the-badge&logo=dart&logoColor=61DAFB" />
-
+<img src="https://img.shields.io/badge/java-20232a.svg?style=for-the-badge&logo=java&logoColor=61DAFB" />
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mindoll1101)
 <!--
 **mindoll1101/mindoll1101** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
