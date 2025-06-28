@@ -1,5 +1,5 @@
 ## Hi there 👋
-<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=mindoll%201101&fontSize=90" />
+<img src="https://capsule-render.vercel.app/api?type=wave&customColorList=0,2,3&height=300&section=header&text=mindoll%201101&fontSize=90" />
 <!--
 **mindoll1101/mindoll1101** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
