@@ -1,14 +1,14 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:06b6d4&height=220&section=header&text=mindoll1101&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=On-Premise%20AI%20Systems%20%26%20LLM%20Infrastructure%20Engineer&descAlignY=60&descSize=18&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:06b6d4&height=220&section=header&text=mindoll1101&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=On-Premise%20AI%20Systems%20%7C%20LLM%20Infrastructure%20Engineer&descAlignY=60&descSize=18&animation=fadeIn" width="100%" />
 
 <h3>Building Sovereign, Air-Gapped AI Appliances & High-Performance Local LLM Systems</h3>
 
 <p>
-  <img src="https://img.shields.io/badge/Focus-Local_LLM_%26_Inference-0ea5e9?style=flat-square" />
-  <img src="https://img.shields.io/badge/Architecture-Hybrid_RAG_%26_MCP_Agents-6366f1?style=flat-square" />
-  <img src="https://img.shields.io/badge/Systems-Cross--Platform_%26_Zero--Trust-10b981?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Local_LLM_Inference-0ea5e9?style=flat-square" />
+  <img src="https://img.shields.io/badge/Architecture-Hybrid_RAG_Agents-6366f1?style=flat-square" />
+  <img src="https://img.shields.io/badge/Systems-Cross--Platform_Zero--Trust-10b981?style=flat-square" />
 </p>
 
 </div>
@@ -20,7 +20,7 @@
 데이터 유출 없는 **온프레미스·폐쇄망(Air-Gapped) AI 인프라**와 **크로스 플랫폼 네이티브 소프트웨어**를 설계하고 구현합니다.  
 초거대 언어 모델(LLM)의 로컬 서빙 최적화부터 하이브리드 RAG, 에이전틱 워크플로우, 네이티브 바이너리 보호 및 배포 자동화까지 엔드투엔드(End-to-End) 시스템을 다룹니다.
 
-- 🔭 **Currently working on:** Enterprise Sovereign AI Appliance (Local LLM Serving, Hybrid RAG & Agentic Workspace)
+- 🔭 **Currently working on:** Enterprise Sovereign AI Appliance (Local LLM Serving, Hybrid RAG, Agentic Workspace)
 - ⚡ **Core Interests:** GPU Offloading (`CUDA` / `ROCm` / `Vulkan` / `Metal`), Inference Optimization (`vLLM`, `llama.cpp`), Zero-Trust Security
 - 🛠️ **Engineering Approach:** Zero-Dependency Packaging, Deterministic Pipelines, Native Performance (`C++`, `Rust`, `Cython`)
 
@@ -34,6 +34,19 @@
 | **🔎 Hybrid RAG & Agents** | 사내 문서(PDF/Office/HWPX) 파싱, 벡터·키워드 하이브리드 검색(FAISS), MCP 기반 에이전트 오케스트레이션 |
 | **🖥️ Cross-Platform Studio** | `Tauri` + `Vite` 기반 네이티브 데스크톱 AI 스튜디오 및 Windows / Linux / macOS 단일 파일 인스톨러 구축 |
 | **🛡️ Systems & Security** | Cython 네이티브 바이너리 보호, 하드웨어 기반 Zero-Trust 인증(PoP), 오프라인 에어갭 배포 아키텍처 |
+
+---
+
+### 🏗️ Typical System Architecture I Build
+
+```mermaid
+flowchart LR
+    Client["Desktop Studio\n(Tauri + Vite)"] -->|Zero-Trust PoP| Gateway["Appliance Server\n(FastAPI + Cython Core)"]
+    Gateway --> RAG["Hybrid RAG\n(FAISS + Document Parser)"]
+    Gateway --> Agents["Agentic Runtime\n(MCP Tools & Connectors)"]
+    Gateway --> Inference["Local LLM Engine\n(vLLM / llama.cpp)"]
+    Inference --> HW["Multi-Accelerator\n(CUDA / ROCm / Vulkan / Metal)"]
+```
 
 ---
 
@@ -66,15 +79,6 @@
 <img src="https://img.shields.io/badge/PostgreSQL-0f172a?style=for-the-badge&logo=postgresql&logoColor=60a5fa" />
 <img src="https://img.shields.io/badge/Git-0f172a?style=for-the-badge&logo=git&logoColor=f05032" />
 
-</div>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=mindoll1101&show_icons=true&theme=transparent&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&border_color=334155&hide_border=false" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mindoll1101&layout=compact&theme=transparent&title_color=38bdf8&text_color=94a3b8&border_color=334155&hide_border=false" />
 </div>
 
 <!-- Footer Banner -->
