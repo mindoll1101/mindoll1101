@@ -18,11 +18,11 @@
 ### 👨‍💻 About Me
 
 <div align="center">
-  <a href="https://회사홈페이지주소" target="_blank">
+  <a href="https://solimatics.co.kr" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/solimatics-logo-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/solimatics-logo-light.svg" />
-      <img src="./assets/solimatics-logo.svg" alt="SOLIMATICS" height="28" />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/solimatics-logo-dark.png" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/solimatics-logo.png" />
+      <img src="./assets/solimatics-logo.png" alt="SOLIMATICS" height="28" />
     </picture>
   </a>
   <br />
